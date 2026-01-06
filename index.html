@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoggYT - Home</title>
+    <title>Fogg Bot - Discord Bot</title>
     <style>
         * {
             margin: 0;
@@ -14,8 +14,8 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            background: linear-gradient(135deg, #5865F2 0%, #404EED 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -25,27 +25,33 @@
 
         .container {
             text-align: center;
-            background: white;
+            background: rgba(0, 0, 0, 0.3);
             padding: 60px 40px;
-            border-radius: 10px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         h1 {
-            color: #667eea;
-            font-size: 3em;
+            color: #fff;
+            font-size: 3.5em;
             margin-bottom: 15px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .emoji {
+            font-size: 1.2em;
         }
 
         .subtitle {
-            color: #666;
-            font-size: 1.3em;
-            margin-bottom: 30px;
+            color: #b9bbbe;
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
 
         .description {
-            color: #555;
+            color: #dcddde;
             font-size: 1.1em;
             margin-bottom: 40px;
             line-height: 1.8;
@@ -61,10 +67,10 @@
         .btn {
             display: inline-block;
             padding: 12px 30px;
-            background: #667eea;
+            background: #5865F2;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 25px;
             font-weight: bold;
             transition: all 0.3s ease;
             border: none;
@@ -73,40 +79,44 @@
         }
 
         .btn:hover {
-            background: #764ba2;
+            background: #4752C4;
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
 
         .btn-secondary {
-            background: #764ba2;
+            background: #40444B;
+        }
+
+        .btn-secondary:hover {
+            background: #36393F;
         }
 
         footer {
             margin-top: 40px;
             padding-top: 20px;
-            border-top: 1px solid #ddd;
-            color: #999;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #72767d;
             font-size: 0.9em;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome!</h1>
-        <p class="subtitle">I'm FoggYT</p>
+        <h1><span class="emoji">🤖</span> Fogg Bot</h1>
+        <p class="subtitle">Your Ultimate Discord Companion</p>
         <p class="description">
-            A passionate developer and content creator learning to build amazing things on the web. 
-            Check out my journey and projects below!
+            Fogg Bot is a powerful Discord bot designed to make your server more fun and productive. 
+            With moderation tools, fun commands, and much more!
         </p>
         
         <div class="nav-buttons">
-            <a href="about.html" class="btn">About Me</a>
-            <a href="https://github.com/FoggDaCoder" class="btn btn-secondary" target="_blank">My GitHub</a>
+            <a href="about.html" class="btn">Learn More</a>
+            <a href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID" class="btn btn-secondary" target="_blank">Invite Bot</a>
         </div>
 
         <footer>
-            <p>&copy; 2026 FoggYT. All rights reserved.</p>
+            <p>&copy; 2026 Fogg Bot. Made for Discord.</p>
         </footer>
     </div>
 </body>
